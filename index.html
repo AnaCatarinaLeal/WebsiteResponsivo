@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Joana Vasconcelos</title>
+  <meta name="description" content="HTML tutorial">
+  <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+  <meta name="author" content="Ana Catarina Leal">
+  <meta http-equiv="refresh" content="30">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/skin.css">
+  </head>
+
+  <!---Content starts here--->
+
+<body>
+  <header>
+
+    <a id="menu_icon">
+     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+     <path d="M2 6h20v3H2zm0 5h20v3H2zm0 5h20v3H2z" fill="white"/>
+     </svg>
+    </a>
+
+    <div id="drawer">
+    <nav>
+    <a href="#participações"> Participações Relevantes</a>
+    <a href="#destaques"> Destaques em Livros</a>
+    <a href="#obras"> Obras</a>
+    <a href="#coleções"> Coleções</a>
+    </nav>
+    </div>
+
+
+    <h1>Joana Vasconcelos</h1>
+      <p> A primeira mulher e a mais jovem artista a expor no Palácio de Versalhes. </p>
+    <hr />
+    <h4>Design de Interação</h4>
+  </header>
+
+
+  <nav id="tabletPC" class="col-3">
+    <a href="#participações"> Participações Relevantes</a>
+    <br />
+    <a href="#destaques"> Destaques em Livros</a>
+    <br />
+    <a href="#obras"> Obras</a>
+    <br />
+    <a href="#coleções"> Coleções</a>
+  </nav>
+
+
+  <div id="container" class="col-9">
+    <section class="slideshow-container">
+      <h2>Slideshow</h2>
+
+ <article class="mySlides" class="fade">
+    <figure>
+     <img src="images/image11.jpg">
+     <figcaption>Joana Vasconcelos</figcaption>
+   </figure>
+ </article>
+
+ <article class="mySlides" class="fade">
+    <figure>
+     <img src="images/image22.jpg">
+     <figcaption>Obra "Suspensão", marco do centenário das aparições, Santuário de Fátima.</figcaption>
+   </figure>
+ </article>
+
+ <article class="mySlides" class="fade">
+    <figure>
+     <img src="images/image33.jpg">
+     <figcaption>Inauguração de instalação, no MassArt Museum, em Boston, Estados Unidos.</figcaption>
+   </figure>
+ </article>
+
+   <div class="dotpoints">
+   <span class="dot"></span>
+   <span class="dot"></span>
+   <span class="dot"></span>
+   </div>
+   </section>
+
+
+    <section>
+      <a name="participações">
+        <h2> Participações Relevantes </h2>
+        <i>Algumas participações e exposições em Portugal e no estrangeiro:</i>
+      <ul>
+        <li> primeira retrospetiva, apresentada no Museu Coleção Berardo, em Lisboa em 2010, </li>
+        <li> exposição individual The World Belongs to You, no Palazzo Grassi/François Pinault Foundation em 2011,</li>
+        <li> projeto Trafaria Praia, para o Pavilhão de Portugal na 55.ª Bienal de Veneza em 2013,</li>
+        <li> exposição individual no Museu Guggenheim Bilbao em 2018.</li>
+      </ul>
+    </section>
+
+
+    <section>
+      <a name="destaques">
+        <h2> Destaques em Livros </h2>
+        <i> Dois dos vários livros nos quais é destacado o trabalho de Joana Vasconcelos: </i>
+        <ol>
+          <li><u> 250th Summer Exhibition 2018 Illustrated (Royal Academy of Arts); </u></li>
+          <li><u> The Twenty First Century Art Book (Phaidon). </u></li>
+        </ol>
+      </section>
+
+
+      <section>
+        <a name="Obras">
+          <h2>Obras</h2>
+          <p> Imagens de duas das suas obras. </p>
+          <img src = "images/image1.jpg" width="800" height="auto">
+          <img src = "images/image2.jpg" width="800" height="auto">
+        </section>
+
+
+        <section>
+          <iframe width="560" height="315"
+          src="https://www.youtube.com/embed/XqhVu_42iLw"
+          frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+          </iframe>
+        </section>
+
+
+          <section>
+            <a name="coleções">
+              <table border="1px">
+                <th colspan="3"> Coleções </th>
+                <tr>
+                  <td> Coleções Públicas </td> <td> Coleções Privadas </td> <td> Países de algumas coleções </td>
+                </tr>
+                <tr>
+                  <td rowspan="4">  Caixa Geral de Depósitos, Lisboa</td>
+                    <td rowspan="3"> MUSAC, Leão, Espanha </td>
+                      <td> Portugal </td>
+                    </tr>
+                    <tr>
+                      <td> Espanha </td>
+                    </tr>
+                    <tr>
+                      <td> França </td>
+                    </tr>
+                    <tr>
+                      <td> Pinault Collection, Paris e Veneza </td> <td> Dinamarca </td>
+                    </tr>
+                </table>
+            </section>
+      </div>
+
+              <aside class="col-2">
+                <h3>Artista representada por:</h3>
+                <p>Casa Triângulo em São Paulo;
+                  Galería Horrach Moyà em Palma de Maiorca;
+                  Galerie Scheffel, Bad Homburg na Alemanha;
+                  Galerie Valérie Bach/La Patinoire Royale em Bruxelas;
+                  Gowen Contemporary em Genebra;
+                  Gallery Gérard Lasés,Banguecoque em Hong Kong.</p>
+              </aside>
+
+
+        <footer>
+          <h2>Developed by Ana Catarina Leal</h2>
+        </footer>
+
+        <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+        let i = null;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+
+        for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+        }
+
+        slideIndex++;
+        if (slideIndex> slides.length) {slideIndex = 1}
+
+        for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+        }
+
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+        setTimeout(showSlides, 3000); // Change image every 3 seconds
+        }
+
+        let menu_icon = document.querySelector("#menu_icon");
+        let container = document.querySelector("#container");
+        let drawer = document.querySelector("#drawer");
+
+        menu_icon.addEventListener('click', function (e) {
+
+          drawer.classList.toggle('open');
+          e.stopPropagation();
+        });
+
+        container.addEventListener('click', function () {
+          drawer.classList.remove('open');
+        });
+
+        </script>
+
+  </body>
+
+<!---Content ends here--->
+
+</html>
